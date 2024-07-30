@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cart-container">
+        <h1>Shopping Cart</h1>
+        <ul class="cart-items">
+            <!-- Items will be dynamically inserted here -->
+        </ul>
+        <div class="cart-total">
+            <strong>Total:</strong> $<span id="total-price">0.00</span>
+        </div>
+        <button id="checkout-button">Checkout</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
